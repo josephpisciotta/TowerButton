@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F95E3F56253A2FA70091C14F /* TowerButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E3F55253A2FA70091C14F /* TowerButtonApp.swift */; };
+		F95E3F58253A2FA70091C14F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E3F57253A2FA70091C14F /* ContentView.swift */; };
+		F95E3F5A253A2FA80091C14F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95E3F59253A2FA80091C14F /* Assets.xcassets */; };
+		F95E3F5D253A2FA80091C14F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95E3F5C253A2FA80091C14F /* Preview Assets.xcassets */; };
+		F95E3F5F253A2FA80091C14F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E3F5E253A2FA80091C14F /* Persistence.swift */; };
+		F95E3F62253A2FA80091C14F /* TowerButton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F95E3F60253A2FA80091C14F /* TowerButton.xcdatamodeld */; };
+		F95E3F6D253A2FA80091C14F /* TowerButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E3F6C253A2FA80091C14F /* TowerButtonTests.swift */; };
+		F95E3F78253A2FA80091C14F /* TowerButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E3F77253A2FA80091C14F /* TowerButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F95E3F69253A2FA80091C14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F95E3F4A253A2FA70091C14F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F95E3F51253A2FA70091C14F;
+			remoteInfo = TowerButton;
+		};
+		F95E3F74253A2FA80091C14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F95E3F4A253A2FA70091C14F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F95E3F51253A2FA70091C14F;
+			remoteInfo = TowerButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F95E3F52253A2FA70091C14F /* TowerButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowerButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95E3F55253A2FA70091C14F /* TowerButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerButtonApp.swift; sourceTree = "<group>"; };
+		F95E3F57253A2FA70091C14F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F95E3F59253A2FA80091C14F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F95E3F5C253A2FA80091C14F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F95E3F5E253A2FA80091C14F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F95E3F61253A2FA80091C14F /* TowerButton.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TowerButton.xcdatamodel; sourceTree = "<group>"; };
+		F95E3F63253A2FA80091C14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95E3F68253A2FA80091C14F /* TowerButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowerButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95E3F6C253A2FA80091C14F /* TowerButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerButtonTests.swift; sourceTree = "<group>"; };
+		F95E3F6E253A2FA80091C14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95E3F73253A2FA80091C14F /* TowerButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowerButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95E3F77253A2FA80091C14F /* TowerButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerButtonUITests.swift; sourceTree = "<group>"; };
+		F95E3F79253A2FA80091C14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F95E3F4F253A2FA70091C14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95E3F65253A2FA80091C14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95E3F70253A2FA80091C14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F95E3F49253A2FA70091C14F = {
+			isa = PBXGroup;
+			children = (
+				F95E3F54253A2FA70091C14F /* TowerButton */,
+				F95E3F6B253A2FA80091C14F /* TowerButtonTests */,
+				F95E3F76253A2FA80091C14F /* TowerButtonUITests */,
+				F95E3F53253A2FA70091C14F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F95E3F53253A2FA70091C14F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F95E3F52253A2FA70091C14F /* TowerButton.app */,
+				F95E3F68253A2FA80091C14F /* TowerButtonTests.xctest */,
+				F95E3F73253A2FA80091C14F /* TowerButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F95E3F54253A2FA70091C14F /* TowerButton */ = {
+			isa = PBXGroup;
+			children = (
+				F95E3F55253A2FA70091C14F /* TowerButtonApp.swift */,
+				F95E3F57253A2FA70091C14F /* ContentView.swift */,
+				F95E3F59253A2FA80091C14F /* Assets.xcassets */,
+				F95E3F5E253A2FA80091C14F /* Persistence.swift */,
+				F95E3F63253A2FA80091C14F /* Info.plist */,
+				F95E3F60253A2FA80091C14F /* TowerButton.xcdatamodeld */,
+				F95E3F5B253A2FA80091C14F /* Preview Content */,
+			);
+			path = TowerButton;
+			sourceTree = "<group>";
+		};
+		F95E3F5B253A2FA80091C14F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F95E3F5C253A2FA80091C14F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F95E3F6B253A2FA80091C14F /* TowerButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F95E3F6C253A2FA80091C14F /* TowerButtonTests.swift */,
+				F95E3F6E253A2FA80091C14F /* Info.plist */,
+			);
+			path = TowerButtonTests;
+			sourceTree = "<group>";
+		};
+		F95E3F76253A2FA80091C14F /* TowerButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F95E3F77253A2FA80091C14F /* TowerButtonUITests.swift */,
+				F95E3F79253A2FA80091C14F /* Info.plist */,
+			);
+			path = TowerButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F95E3F51253A2FA70091C14F /* TowerButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95E3F7C253A2FA80091C14F /* Build configuration list for PBXNativeTarget "TowerButton" */;
+			buildPhases = (
+				F95E3F4E253A2FA70091C14F /* Sources */,
+				F95E3F4F253A2FA70091C14F /* Frameworks */,
+				F95E3F50253A2FA70091C14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TowerButton;
+			productName = TowerButton;
+			productReference = F95E3F52253A2FA70091C14F /* TowerButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F95E3F67253A2FA80091C14F /* TowerButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95E3F7F253A2FA80091C14F /* Build configuration list for PBXNativeTarget "TowerButtonTests" */;
+			buildPhases = (
+				F95E3F64253A2FA80091C14F /* Sources */,
+				F95E3F65253A2FA80091C14F /* Frameworks */,
+				F95E3F66253A2FA80091C14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F95E3F6A253A2FA80091C14F /* PBXTargetDependency */,
+			);
+			name = TowerButtonTests;
+			productName = TowerButtonTests;
+			productReference = F95E3F68253A2FA80091C14F /* TowerButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F95E3F72253A2FA80091C14F /* TowerButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95E3F82253A2FA80091C14F /* Build configuration list for PBXNativeTarget "TowerButtonUITests" */;
+			buildPhases = (
+				F95E3F6F253A2FA80091C14F /* Sources */,
+				F95E3F70253A2FA80091C14F /* Frameworks */,
+				F95E3F71253A2FA80091C14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F95E3F75253A2FA80091C14F /* PBXTargetDependency */,
+			);
+			name = TowerButtonUITests;
+			productName = TowerButtonUITests;
+			productReference = F95E3F73253A2FA80091C14F /* TowerButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F95E3F4A253A2FA70091C14F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F95E3F51253A2FA70091C14F = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					F95E3F67253A2FA80091C14F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F95E3F51253A2FA70091C14F;
+					};
+					F95E3F72253A2FA80091C14F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F95E3F51253A2FA70091C14F;
+					};
+				};
+			};
+			buildConfigurationList = F95E3F4D253A2FA70091C14F /* Build configuration list for PBXProject "TowerButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F95E3F49253A2FA70091C14F;
+			productRefGroup = F95E3F53253A2FA70091C14F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F95E3F51253A2FA70091C14F /* TowerButton */,
+				F95E3F67253A2FA80091C14F /* TowerButtonTests */,
+				F95E3F72253A2FA80091C14F /* TowerButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F95E3F50253A2FA70091C14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95E3F5D253A2FA80091C14F /* Preview Assets.xcassets in Resources */,
+				F95E3F5A253A2FA80091C14F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95E3F66253A2FA80091C14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95E3F71253A2FA80091C14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F95E3F4E253A2FA70091C14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95E3F5F253A2FA80091C14F /* Persistence.swift in Sources */,
+				F95E3F62253A2FA80091C14F /* TowerButton.xcdatamodeld in Sources */,
+				F95E3F58253A2FA70091C14F /* ContentView.swift in Sources */,
+				F95E3F56253A2FA70091C14F /* TowerButtonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95E3F64253A2FA80091C14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95E3F6D253A2FA80091C14F /* TowerButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95E3F6F253A2FA80091C14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95E3F78253A2FA80091C14F /* TowerButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F95E3F6A253A2FA80091C14F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F95E3F51253A2FA70091C14F /* TowerButton */;
+			targetProxy = F95E3F69253A2FA80091C14F /* PBXContainerItemProxy */;
+		};
+		F95E3F75253A2FA80091C14F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F95E3F51253A2FA70091C14F /* TowerButton */;
+			targetProxy = F95E3F74253A2FA80091C14F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F95E3F7A253A2FA80091C14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F95E3F7B253A2FA80091C14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F95E3F7D253A2FA80091C14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TowerButton/Preview Content\"";
+				DEVELOPMENT_TEAM = UHM7QC56E4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TowerButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shiotta.TowerButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F95E3F7E253A2FA80091C14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TowerButton/Preview Content\"";
+				DEVELOPMENT_TEAM = UHM7QC56E4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TowerButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shiotta.TowerButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F95E3F80253A2FA80091C14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHM7QC56E4;
+				INFOPLIST_FILE = TowerButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shiotta.TowerButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowerButton.app/TowerButton";
+			};
+			name = Debug;
+		};
+		F95E3F81253A2FA80091C14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHM7QC56E4;
+				INFOPLIST_FILE = TowerButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shiotta.TowerButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowerButton.app/TowerButton";
+			};
+			name = Release;
+		};
+		F95E3F83253A2FA80091C14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHM7QC56E4;
+				INFOPLIST_FILE = TowerButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shiotta.TowerButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TowerButton;
+			};
+			name = Debug;
+		};
+		F95E3F84253A2FA80091C14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHM7QC56E4;
+				INFOPLIST_FILE = TowerButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shiotta.TowerButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TowerButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F95E3F4D253A2FA70091C14F /* Build configuration list for PBXProject "TowerButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95E3F7A253A2FA80091C14F /* Debug */,
+				F95E3F7B253A2FA80091C14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F95E3F7C253A2FA80091C14F /* Build configuration list for PBXNativeTarget "TowerButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95E3F7D253A2FA80091C14F /* Debug */,
+				F95E3F7E253A2FA80091C14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F95E3F7F253A2FA80091C14F /* Build configuration list for PBXNativeTarget "TowerButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95E3F80253A2FA80091C14F /* Debug */,
+				F95E3F81253A2FA80091C14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F95E3F82253A2FA80091C14F /* Build configuration list for PBXNativeTarget "TowerButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95E3F83253A2FA80091C14F /* Debug */,
+				F95E3F84253A2FA80091C14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F95E3F60253A2FA80091C14F /* TowerButton.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F95E3F61253A2FA80091C14F /* TowerButton.xcdatamodel */,
+			);
+			currentVersion = F95E3F61253A2FA80091C14F /* TowerButton.xcdatamodel */;
+			path = TowerButton.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F95E3F4A253A2FA70091C14F /* Project object */;
+}
